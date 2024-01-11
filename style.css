@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #b7b99d; /* Sfondo della pagina */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(58, 88, 153);
+    font-size: 3em; /* Rendi il titolo un po' più grande */
+    font-family: 'Georgia', serif; /* Cambia il font del titolo */
+}
+
+#controls {
+    width: 100%;
+    display: flex;
+    justify-content: space-around; /* Distribuisce lo spazio tra i controlli */
+    margin-bottom: 10px;
+}
+
+#countries {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.country {
+    border: 1px solid #000;
+    border-radius: 10px; /* Bordo arrotondato */
+    margin: 10px;
+    padding: 10px;
+    width: 200px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background: #bdbaae; /* Sfondo della card */
+}
+
+.country:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+.country img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.details {
+    padding: 1px;
+    font-size: 0.9em;
+}
+
+h2 {
+    font-family: 'Courier New', Courier, monospace; /* Cambia il font del titolo */
+    color: rgb(58, 88, 153);
+}
+
+button, select {
+    padding: 5px;
+    margin: 5px;
+    font-size: 1em;
+    border: 1px solid #000;
+    border-radius: 5px;
+    background: #bdbaae; /* Colore di sfondo del pulsante */
+    color: rgb(58, 88, 153); /* Colore del testo del pulsante */
+    cursor: pointer;
+}
+
+button:hover, select:hover {
+    background: #a9a9a9; /* Colore di sfondo del pulsante quando il mouse passa sopra */
+}
