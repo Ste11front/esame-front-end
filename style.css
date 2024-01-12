@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background: #b7b99d; /* Sfondo della pagina */
+    background: #b7b99d;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -9,8 +9,8 @@ body {
 h1 {
     text-align: center;
     color: rgb(58, 88, 153);
-    font-size: 3em; /* Rendi il titolo un po' più grande */
-    font-family: 'Georgia', serif; /* Cambia il font del titolo */
+    font-size: 3em;
+    font-family: 'Georgia', serif;
 }
 
 #controls {
@@ -31,31 +31,31 @@ h1 {
     border-radius: 10px; /* Bordo arrotondato */
     margin: 10px;
     padding: 10px;
-    width: 200px;
-    text-align: center;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 200px; /* Aggiunge una larghezza fissa per ogni contenitore di paese */
+    text-align: center; /* Centra il testo e l'immagine */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Aggiunge una transizione per la trasformazione e l'ombra */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Aggiunge un'ombra che da l'impressione di essere sopra rispetto allo sfondo */
     background: #bdbaae; /* Sfondo della card */
 }
 
 .country:hover {
-    transform: scale(1.05);
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    transform: scale(1.05); /* Aumenta le dimensioni del contenitore del paese quando il mouse passa sopra */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); /* Aumenta l'ombra quando il mouse passa sopra */
 }
 
 .country img {
-    width: 100%;
-    height: 150px;
-    object-fit: cover;
+    width: 100%; /* Fa in modo che l'immagine si estenda fino ai bordi */
+    height: 150px; /* Imposta un'altezza fissa per l'immagine */
+    object-fit: cover; /* Fa in modo che l'immagine copra l'intera area */
 }
 
 .details {
-    padding: 1px;
-    font-size: 0.9em;
+    padding: 1px; /* Aggiunge un padding ai dettagli per separarli dal bordo */
+    font-size: 0.9em; /* Riduce la dimensione del font dei dettagli */
 }
 
 h2 {
-    font-family: 'Courier New', Courier, monospace; /* Cambia il font del titolo */
+    font-family: 'Courier New', Courier, monospace;
     color: rgb(58, 88, 153);
 }
 

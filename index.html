@@ -13,18 +13,20 @@
 
 <body>
     <h1>European Countries</h1>
-    <div id="controls">
+    <div id="controls"> <!-- Contenitore per i controlli che permettono all’utente di interagire con l’elenco dei paesi -->
         <div>
             <button id="sortName">Sort by name</button>
             <button id="sortPopulation">Sort by population</button>
+            <!-- Pulsanti che, quando cliccati, ordinano l’elenco dei paesi per nome o popolazione, rispettivamente -->
         </div>
-        <select id="filterSubregion">
-            <option value="">All subregions</option>
-            <!-- Le opzioni di subregione verranno aggiunte dinamicamente -->
+        <select id="filterSubregion"> 
+            <!-- Menù a tendina che permette all’utente di filtrare l’elenco dei paesi per subregione -->
+            <option value="">All subregions</option> <!-- Opzione predefinita che mostra tutti i paesi -->
+            <!-- Le opzioni di subregion verranno aggiunte dinamicamente dal codice JavaScript -->
         </select>
     </div>
     <div id="countries"></div>
-
+    <!-- Contenitore dove verranno visualizzati i paesi. Inizialmente vuoto, verrà riempito dinamicamente dal codice JavaScript -->
     <script src="main.js"></script>
 </body>
 

@@ -1,0 +1,9 @@
+Utilizzando l'API di restcountries.com
+(url: https//restcountries.com/v3.1/region/europe), create un sito che permetta di visualizzare tutti i paesi europei,
+facendo una selezione dei dati forniti dall'API.
+Curate la grafica del sito.
+
+Opzionali:
+a) Fate in modo che l'utente possa ordinare i paesi per nome o per popolazione.
+b) Implementate un filtro per Sotto Regione.
+c) Pubblicate il progetto su GITHUB pages.
